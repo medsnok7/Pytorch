@@ -1,0 +1,154 @@
+{
+    "intents": [
+      {
+        "tag": "greeting",
+        "patterns": [
+          "Hi",
+          "Hey",
+          "Is anyone there?",
+          "Hello",
+          "Good day"
+        ],
+        "responses": [
+          "Hey :-)",
+          "Hello, thanks for visiting",
+          "Hi there, what can I do for you?",
+          "Hi there, how can I help?"
+        ]
+      },
+      {
+        "tag": "else",
+        "patterns": [
+          "what else",
+          "elaborate",
+          "be specific"
+          ],
+        "responses": [
+          "about what?",
+          "can you ask again please",
+          "what's your question"
+        ]
+      },
+      {
+        "tag": "jujutsu",
+        "patterns": [
+          "tell me about the anime jujutsu kaisen",
+          "what is jujutsu kaisen",
+          "whats the story of jujutsu kaisen"
+          ],
+        "responses": [
+          "jujutsu is praised for its fluidity and visual brillance",
+          "the story revolves around Yuji itadori, a high school student with exceptional physical abilities Yuji finds himself drawn into the world of jujutsu sorcery when he comes into contact with a cursed object"
+        ]
+      },
+      {
+        "tag": "KKK",
+        "patterns": [
+          "do you like the kkk",
+          "do you support the kkk"
+        ],
+        "responses": [
+          "Hell no",
+          "I hate KKK and I love KSI",
+          "there is no way that I can be a racist",
+          "I love all the races"
+        ]
+      },
+      {
+        "tag": "football",
+        "patterns": [
+          "who is the goat",
+          "who is the best football player",
+          "who has the more goals in history",
+          "who is the number one"
+          ],
+        "responses": [
+          "cristiano ronaldo",
+          "cr7",
+          "Siuuuuuuu"
+        ]
+      },
+      {
+        "tag": "health",
+        "patterns": [
+          "how you doing",
+          "how are you",
+          "are you doing great",
+          "everything is okay?",
+          "how is life",
+          "what's up"
+        ],
+        "responses": [
+          "fine :-)",
+          "doing great, thanks",
+          "feeling good ",
+          "Dunno ... but feeling better"
+        ]
+      },
+      {
+        "tag": "goodbye",
+        "patterns": ["Bye", "See you later", "Goodbye"],
+        "responses": [
+          "See you later, thanks for visiting",
+          "Have a nice day",
+          "Bye! Come back again soon."
+        ]
+      },
+      {
+        "tag": "thanks",
+        "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+        "responses": ["Happy to help!", "Any time!", "My pleasure"]
+      },
+      {
+        "tag": "items",
+        "patterns": [
+          "Which items do you have?",
+          "What kinds of items are there?",
+          "What do you sell?"
+        ],
+        "responses": [
+          "We sell coffee and tea",
+          "We have coffee and tea",
+          "we sell free coffee on friday!"
+
+        ]
+      },
+      {
+        "tag": "payments",
+        "patterns": [
+          "Do you take credit cards?",
+          "Do you accept Mastercard?",
+          "Can I pay with Paypal?",
+          "Are you cash only?"
+        ],
+        "responses": [
+          "We accept VISA, Mastercard and Paypal",
+          "We accept most major credit cards, and Paypal"
+        ]
+      },
+      {
+        "tag": "delivery",
+        "patterns": [
+          "How long does delivery take?",
+          "How long does shipping take?",
+          "When do I get my delivery?"
+        ],
+        "responses": [
+          "Delivery takes 2-4 days",
+          "Shipping takes 2-4 days"
+        ]
+      },
+      {
+        "tag": "funny",
+        "patterns": [
+          "Tell me a joke!",
+          "Tell me something funny!",
+          "Do you know a joke?"
+        ],
+        "responses": [
+          "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
+          "What did the buffalo say when his son left for college? Bison."
+        ]
+      }
+    ]
+  }
